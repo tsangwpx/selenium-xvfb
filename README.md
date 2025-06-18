@@ -6,7 +6,11 @@ docker run --init -it --rm -v $(pwd):/app -p 5900:5900 --name selenium-xvfb sele
 ```
 
 In another terminal, run the following to open an VNC client to access the chrome in the docker
-
 ```
 xtightvncviewer 127.0.0.1:5900
+```
+
+the VNC client can be installed with
+```
+apt install xtightvncviewer
 ```
